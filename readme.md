@@ -1,0 +1,1 @@
+Webpage for my school project. Its backend's based on pyFlask, frontend - JS + JQuery + Some plugins.
