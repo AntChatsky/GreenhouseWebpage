@@ -1,0 +1,92 @@
+@import "template.css";
+
+.article {
+    margin: 30px 0;
+    position: absolute;
+}
+
+.article-title {
+    font: 48px "Akrobat-Regular";
+    font-weight: bold;
+}
+
+.article-tags {
+    color: #6b6c6d;
+    font: 24px "Georgia";
+    font-weight: bold;
+}
+
+.article-content {
+    font: 24px "Georgia";
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.article img {
+    max-width: 70%;
+    margin-bottom: 20px;
+}
+
+.article-button {
+    font: 36px "Akrobat-Bold";
+    color: #7b00b5;
+    font-size: 2em;
+    padding: 6px 15px;
+    border: 3px solid #7b00b5;
+    margin-bottom: 30px;
+    text-decoration: none;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.article-button:hover {
+    color: white;
+    background: #7b00b5;
+}
+
+@media screen and (max-device-width: 500px) {
+    .article {
+        margin: 10px 0;
+        left: 5%;
+        max-width: 85%;
+    }
+
+    .article img {
+        max-height: 400px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-device-width: 501px) and (max-device-width: 800px) {
+    .article {
+        margin: 10px 0;
+        left: 5%;
+        max-width: 85%;
+    }
+
+    .article-title {
+        font-size: 5em;
+    }
+
+    .article-tags, .article-content {
+        font-size: 2em;
+    }
+
+    .article img {
+        max-width: 100%;
+    }
+
+    .article-button {
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-device-width: 801px) {
+    .article {
+        left: 10%;
+        max-width: 45%;
+    }
+}
